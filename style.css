@@ -1,0 +1,60 @@
+.jumbotron{
+    text-align: right;
+    color: white;
+    height: 700px;
+    /* background: url(images/gutenberg.jpg); */
+    /* background-attachment: fixed; */
+    background: transparent;
+}
+
+
+
+.lead{
+    font-family: proxima-n-w01-reg, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.display-4{
+    font-family: proxima-n-w01-reg, sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    
+}
+.middle{
+    margin-top: 175px;
+    margin-bottom: auto;
+}
+
+.content{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+h5{
+    font-size: 26px;
+}
+
+footer{
+    font-size:14px;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-weight: normal;
+}
+
+.portImg{
+    width:100%;
+}
+
+.portImg:hover{
+    opacity: .7;
+}
+/* .parallax-window {
+    min-height: 400px;
+    background: transparent;
+} */
+
+@media only screen and (max-width: 768px) {
+    .display-4{
+        font-size: 24px;
+    }
+} 
